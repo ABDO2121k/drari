@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel website </title>
+
+    <!--font owsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+
+<header>
+
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>W</span>ebsite</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <div class="icons">
+        <i class="fas fa-search" id="serach-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here .....">
+        <label for="search-bar" class="fas fa-search"> </label>
+    </form>
+</header>
+
+
+
+
+
+<!-- login form-->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+    <h3>login</h3>
+    <p class="p2"></p>
+    <input type="email" class="box" placeholder="enter your email" id="email2">
+    <input type="password" class="box" placeholder="enter your password" id="passc">
+    <input type="submit" value="login now" class="btn" id="submit2">
+    <input type="checkbox" id="remember">
+    <label for="remember"> remember me</label>
+    <p>forget password ? <a href="#"> click here</a></p>
+    <p>don't have account ? <a href="#" class="registerB"> register now</a></p>
+</form>
+</div>
+
+
+
+<div class="register-form-container">
+    <i class="fas fa-times" id="form2-close"></i>
+    <form action="">
+    <h3>register</h3>
+    <p class="p" id="p"></p>
+    <input type="text" class="box" placeholder="enter your name" id="nom">
+    <input type="email" class="box" placeholder="enter your email" id="email">
+    <input type="password" class="box" placeholder="enter your password" id="pass">
+    <input type="password" class="box" placeholder="enter your password again " id="pass2">
+    <input type="checkbox" id="remember"> <label for="remember"> homme</label>
+    <input type="checkbox" id="remember"> <label for="remember"> femme</label>
+    <input type="submit" value="register" class="btn" id="submit">
+    <p>you have account ? <a href="#" class="loginB"> login now</a></p>
+</form>
+</div>
+
+
+<!--home section-->
+<section class="home" id="home">
+ <div class="content">
+    <h1 class="heading" style="text-transform: uppercase;">
+    <span style="background-color: bisque;">blays</span>
+    <span class="space"></span>
+    <span style="background-color: bisque;">wlh</span>
+    <span class="space"></span>
+    <span style="background-color: bisque;">la</span>
+    <span class="space"></span>
+    <span style="background-color: bisque;">wsltolhom</span>
+   </h1>
+
+    <p>discover now places with us, welcom to our club</p>
+    <a href="#" class="btn"> discover more</a>
+ </div>
+ <div class="controls">
+    <span class="vid-btn clicked" data-src="img/v1.mp4"></span>
+    <span class="vid-btn" data-src="img/v7.mp4"></span>
+    <span class="vid-btn" data-src="img/v3.mp4"></span>
+    <span class="vid-btn" data-src="img/v4.mp4"></span>
+    <span class="vid-btn" data-src="img/v5.mp4"></span>
+    <span class="vid-btn" data-src="img/v6.mp4"></span>
+    <span class="vid-btn" data-src="v7.mp4"></span>
+ </div>
+ <div class="video-container">
+    <video src="v2.mp4" id="video-slider" loop autoplay muted></video>
+ </div>
+
+</section>
+
+
+<!--book section starts -->
+<section class="book" id="book">
+   <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+   </h1>
+
+   <div class="row">
+         <div class="image">
+                <img src="img/s.jpg" alt="">
+         </div>
+         <form action="">
+            <div class="inputB">
+                <h3> where to </h3>
+                <input type="text" name="" id="" placeholder="place name">
+            </div>
+            <div class="inputB">
+                <h3> how many </h3>
+                <input type="number" name="" id="" placeholder="number of guests">
+            </div>
+            <div class="inputB">
+                <h3> arrivals </h3>
+                <input type="date" name="" id="">
+            </div>
+            <div class="inputB">
+                <h3> leaving </h3>
+                <input type="date" name="" id="">
+            </div>
+            <input type="submit" class="btn" value="book now">
+         </form>
+   </div>
+</section>
+<!--book section ends -->
+<!-- package section starts-->
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+       </h1>
+
+       <div class="box-container">
+        <div class="box">
+            <img src="img/p9.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> tokyo</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/p5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> london</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/p2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> sedni</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/p3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> egypt</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/p1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawai</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="img/p4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> new york</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, ut.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">$999.00 <span>$1200.00</span></div>
+                <a href="#" class="btn"> book now</a>
+            </div>
+        </div>
+       </div>
+
+</section>
+<!-- package section ends-->
+
+
+<!--services section starts -->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+       </h1>
+
+
+
+       <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>best hotels </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>arround the world </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>confort airways </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+            
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla assumenda minima dolore odio sint quaerat facilis, voluptatum distinctio magnam quibusdam omnis accusamus iste voluptate dolor, ducimus deleniti porro quas placeat.</p>
+            
+        </div>
+       </div>
+</section>
+<!--services section ends -->
+<!-- gallery section starts -->
+ <section class="gallery" id="gallery">
+     <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+       </h1>
+    <div class="box-container">
+
+       <div class="box">
+                <img src="img/p2.jpg" alt="">
+                <div class="content">
+                     <h3>amazing places</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+                      <a href="#" class="btn">see more</a>
+                </div>
+        </div>
+        <div class="box">
+            <img src="img/p9.jpg" alt="">
+            <div class="content">
+                 <h3>amazing places</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+                  <a href="#" class="btn">see more</a>
+            </div>
+    </div>
+    <div class="box">
+        <img src="img/p1.jpg" alt="">
+        <div class="content">
+             <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+              <a href="#" class="btn">see more</a>
+        </div>
+</div>
+<div class="box">
+    <img src="img/p4.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/p8.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/p3.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/p5.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/p6.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<div class="box">
+    <img src="img/p7.jpg" alt="">
+    <div class="content">
+         <h3>amazing places</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, ex.</p>
+          <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+        
+    </div><!--container-->
+ </section>
+<!-- gallery section ends -->
+
+
+
+<!--review section strarts-->
+<!--review section ends-->
+
+
+
+<script src="js/js.js"></script>
+    <script>
+let nom=document.querySelector("#nom");
+let email=document.querySelector("#email");
+let pass=document.querySelector("#pass");
+let pass2=document.querySelector("#pass2");
+let p=document.querySelector("#p");
+let submi=document.querySelector("#submit");
+
+let tab=["anas","abdlhakim","oussama","mohammed","mouhssine"]
+submi.onclick=function(){
+    if(pass.value==""||pass2.value=="" || email.value=="" || nom.value==""){
+        p.innerHTML="rak nsiti xi 7aja 5awya";
+        p.style.color="#fff";
+        p.style.background="#DC143C";
+        return false;
+    }
+  if(pass.value!=pass2.value){
+    p.innerHTML=" d5l les codes b7al b7al al7mar";
+    p.style.color="#fff";
+    p.style.background="#DC143C";
+    return false;
+  }
+  let c=0;
+  for(let i=0;i<5;i++){
+     if(nom.value!=tab[i]){
+        c+=1
+     }
+  }
+  if(c==5){
+    p.innerHTML="7iyd rak m9iyd makaynx f lista "
+    p.style.color="#fff";
+    p.style.background="#DC143C";
+    return false;
+  }
+localStorage.setItem("nom",nom.value)
+localStorage.setItem("email",email.value)
+localStorage.setItem("pass",pass.value)
+console.log(localStorage.getItem("pass"))
+p.innerHTML="sf doz l login now li lt7t";
+p.style.background="greenyellow";
+}
+
+
+
+let p2=document.querySelector(".p2")
+let passc=document.querySelector("#passc")
+let email2=document.querySelector("#email2")
+let submit2=document.querySelector("#submit2");
+
+
+submit2.onclick=function(){
+    if(email2.value!=localStorage.getItem("email")){
+        p2.innerHTML="gmail 4alt asa7bi ila nsiti dakxi 3awd tsjl ";
+        p2.style.background="#DC143C";
+        p2.style.color="#fff";
+        return false;
+    }
+    if(passc.value!=localStorage.getItem("pass")){
+        p2.innerHTML="lcode 5alat al7mar ";
+        p2.style.background="#DC143C";
+        p2.style.color="#fff";
+        return false;
+    }
+    let site=localStorage.getItem("nom").concat(".html")
+    console.log(site)
+    window.open(site,'_blank')
+}
+
+    </script>
+</body>
+</html>
